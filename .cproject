@@ -74,8 +74,11 @@
 						</toolChain>
 					</folderInfo>
 					<fileInfo id="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.239725418.1849470850" name="core_cm4.h" rcbsApplicability="disable" resourcePath="Drivers/CMSIS/Include/core_cm4.h" toolsToInvoke=""/>
+					<fileInfo id="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.239725418.452970253" name="accesslevelchange.c" rcbsApplicability="disable" resourcePath="Core/Src/accesslevelchange.c" toolsToInvoke="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.1135658889.1801886167">
+						<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.1135658889.1801886167" name="MCU/MPU GCC Compiler" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.1135658889"/>
+					</fileInfo>
 					<sourceEntries>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Core"/>
+						<entry excluding="Src/accesslevelchange.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Core"/>
 						<entry excluding="CMSIS/Include/core_cm4.h" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Drivers"/>
 					</sourceEntries>
 				</configuration>
